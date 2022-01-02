@@ -1,0 +1,48 @@
+/*
+Theme Name: Opstore child
+Template: opstore
+Theme URI: 
+Author: Laura
+Author URI:
+Description: Opstore Child derived Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gp1-2.0.html
+Text Domain: opstore-child
+Tags: one-column, two-columns, right-sidebar, flexible-header, 
+accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo,
+editor-style, featured-images, footer-widgets, post-formats,
+rtl-language-support, sticky-post, theme-options, threaded-comments, 
+tanslation-ready
+
+This theme, like WordPress, is licensed under the GPL
+
+*/
+
+
+/* .post-info mb-10{
+    display: none;
+} */
+
+#primary > main > div > div > div > div > div > div.related-article.blog-list-wrap.row.news-wrap.classic-post{
+    display: none;
+}
+
+.post-info{
+    display: none;
+}
+
+.image-effect{
+    width: 30%;
+}
+
+#post-259{
+    margin-bottom: 0;
+}
+
+#primary > main > section > div > div > div > div{
+    display: none;
+}
+
+
+ /* @import url("../opstore/style.css"); */
